@@ -1,0 +1,219 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Mooli', sans-serif;
+        
+    }
+
+    body{
+        background-color: #D8D8D8;
+    }
+
+    .navbar{
+        width: 100%;
+        padding: 25px;
+        background-color: #EEEEEE;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid black;
+
+    }
+
+    .btn-navbar {
+        margin: auto 14%;
+    }
+
+    .btn-navbar button {
+        padding: 20px 25px;
+        border-radius: 5px;
+        background-color: black;
+        color: #fff;
+    }
+
+    .btn-navbar button:hover {
+        background-color: white;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .logo-n-link{
+        display: flex;
+        margin: auto 10.5%;
+    }
+
+    .navbar .logo-n-link img{
+        width: auto;
+        height: 50px;
+        margin: 0 px;
+    }
+
+    .logo-n-link a {
+        padding: 10px 45px;
+       text-decoration: none;
+       color: #000;
+    }
+
+    .logo-n-link a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .pembungkus-box{
+        width: 100vw;
+        border: 2px solid;
+        border-radius: 25px;
+        padding: 35px;
+        width: 70%;
+        display: flex;
+        margin: 4% auto;
+        box-shadow: 0 .2px 3px #000;
+        background-color: #fff;
+    }
+
+    .box{
+        margin: 25px auto;
+        justify-content: center;
+
+    }
+    .box h3 {
+        margin-bottom: 25px;
+    }
+
+    .text{
+        text-align: justify;
+        margin-top: 25px;
+        margin-right: 75px;
+        width: auto;
+        height: 150px;
+    }
+
+    .btn-contact{
+        margin-top: 25px;
+        background-color: black;
+        color: #fff;
+        border-radius: 25px;
+        padding: 8px 20px;
+    }
+
+    .btn-contact:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .donwload{
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+    }
+    .donwload p {
+
+        margin-right: 15px;
+    }
+    .icons{
+
+       margin-bottom: 3px;
+    }
+
+    .grand-parents-logo{
+        display: flex;
+    }
+
+    .parents-logo{
+        margin: 25px 20px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: black;
+        color: #fff;
+    }
+
+    .parent-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 250px;
+        margin-top: 25px;
+        box-shadow: 0 0 2px #000;
+        margin: 0 15px;
+    }
+
+    .card h4, .card p{
+       text-align: center;
+    }
+
+    .parent-card .card img{
+        width: 250px;
+        height: 350px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .form-contact{
+        width: 100%;
+        height: auto;
+    }
+
+    form{
+        width: 50%;
+        margin: 5% auto;
+    }
+
+    form label {
+       width: 100%;
+       height: 35px;
+       border-radius: 5px;
+       margin: 15px;
+
+    }
+    form input{
+        width: 100%;
+       height: 35px;
+       border-radius: 5px;
+       margin: 10px;
+        box-shadow: 0 0 10px #000; 
+    }
+
+   
+    form select{
+        width: 100.5%;
+        height: 35px;
+        border-radius: 5px;
+        margin: 10px;
+        box-shadow: 0 0 10px #000;
+    }
+    form textarea{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        resize: none;
+        margin: 10px;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .sub-contactme{
+        float: right;
+        padding: 5px 25px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 3px 6px #000; 
+        background-color: black;
+        color: #fff;
+    }
+
+    .sub-contactme:hover{
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+    }
